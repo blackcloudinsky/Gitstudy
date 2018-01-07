@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微金所</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./favicon.ico">
+    <!-- [if lt IE 9]
+            <script src="./js/html5shiv.js"></script>
+            <script src="./js/respond.min.js"></script>
+       [endif] -->
+</head>
+
+<body>
+
+    <div class="wjs-container">
+        <!-- 顶部导航栏 -->
+        <div class="topnav">
+            <ul class="container">
+                <li class="qrcode">
+                    <a href="javascript:;">手机微金所</a>
+                </li>
+                <li class="service">
+                    <a href="javascript:;">4006-89-4006（服务时间：9:00~21:00）</a>
+                </li>
+                <li class="extra">
+                    <a href="javascript:;">常见问题 财富登录</a>
+                </li>
+                <li class="join">
+                    <a href="javascript:;">免费注册</a>
+                    <a href="javascript:;">登录</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 导航 -->
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="./images/logo.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我要投资</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">我要借贷</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">平台介绍</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">新手专区</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">最新动态</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">微论坛</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <a href="javascript:;">个人中心</a>
+                        <b></b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div id='slider' class='wjs-carousel'>
+            <ul class='swipe-wrap'>
+                <li class="wrap">
+                    <a href="javascript:;">
+                        <img src="./upload/banner_1.gif" alt="">
+                    </a>
+                </li>
+                <li class="wrap">
+                    <a href="javascript:;">
+                        <img src="./upload/banner_2.gif" alt="">
+                    </a>
+                </li>
+                <li class="wrap">
+                    <a href="javascript:;">
+                        <img src="./upload/banner_3.gif" alt="">
+                    </a>
+                </li>
+                <li class="wrap">
+                    <a href="javascript:;">
+                        <img src="./upload/banner_4.gif" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 信息 -->
+        <div class="wjs-info">
+            <div class="container">
+                <dl>
+                    <dt>投资门槛低，收益高</dt>
+                    <dd><span>●</span>100元起投</dd>
+                    <dd><span>●</span>最高年化收益率可达15%</dd>
+                </dl>
+                <dl>
+                    <dt>投资期限, 方式灵活</dt>
+                    <dd><span>●</span>1~36个月多种期限随心选择</dd>
+                    <dd><span>●</span>按月付息、等额本息、利随本清等多种还款方式</dd>
+                </dl>
+                <dl>
+                    <dt>安全保障, 风险可控</dt>
+                    <dd><span>●</span>八层安全保障机制</dd>
+                    <dd><span>●</span>风险拨备金</dd>
+                    <dd><span>●</span>支付宝真好</dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- 通知 -->
+        <div class="wjs-notify">
+            <ul class="container">
+                <li>新标预告：金房宝-房抵项目四十八期，90万，3个月， 10.2%+1%， 月付息到期还本， 四星 距上线： 3 分</li>
+                <li>现在有 395人在排队，累计预约交易成功 6918次。 什么是预约投标？ 立即预约</li>
+                <li><a href="javascript:;"><img src="./images/help-mv.png" alt=""></a></li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/swipe.js"></script>
+    <script>
+        window.mySwipe = Swipe(document.getElementById('slider'));
+        window.mySwipe = new Swipe(document.getElementById('slider'), {
+            speed: 400,
+            auto: 3000,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false,
+        });
+    </script>
+</body>
+
+</html>
